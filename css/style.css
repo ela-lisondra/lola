@@ -1,0 +1,124 @@
+body {
+    font-style: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f6a49;
+    padding: 20px;
+}
+
+a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #eeee;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #ffb6c4;
+}
+
+nav {
+    margin-top: 30px;
+}
+
+/* HERO SECTION */
+
+.hero {
+    background-image: url("../assets/header-background.svg");
+    background-size: cover;
+}
+
+.hero h2 {
+    font-size: 80px;
+    color: #fe5504;
+    padding-top: 275px;
+    padding-bottom: 275px;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* ABOUT SECTION */
+.about {
+    background-color: #ffb6c4;
+    width: 100%;
+    text-align: center;
+    color: #2f6a49;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.about h3 {
+    font-size: 36px;
+}
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 26px;
+}
+
+/* FOOD SECTION    */
+
+.food {
+    display: flex;
+    color:#2f6a49;
+    text-align: left;
+    background-color: #ffd400;
+}
+.food .food-info { 
+    padding: 50px 80px 60px;
+    width: 400px;
+}
+
+.food-info p {
+    font-size: 20px;
+}
+
+.food-info h3 {
+    font-size: 26px;
+}
+
+.food img,
+.food .food-info{
+    width: 50%;
+}
+
+/* QUOTE SECTION */
+.quote {
+    background-color: #ffd7b3;
+}
+blockquote {
+    text-align: center;
+    font-size: 36px;
+    color: #2f6a49;
+    padding: 100px 80px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* GALLERY SECTION */
+.gallery img{
+    width: 33%;
+}
+
+/* FIND US SECTION */
+
+.find-us {
+    background-color: #2f6a49;
+    color: #ffb6c4;
+    text-align: center;
+    display: flex;
+}
+
+.find-us div {
+    width: 33%;
+}
+
+.find-us img {
+    border-radius: 100%;
+}
