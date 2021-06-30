@@ -71,6 +71,7 @@ nav {
     text-align: left;
     background-color: #ffd400;
 }
+
 .food .food-info { 
     padding: 50px 80px 60px;
     width: 400px;
@@ -204,7 +205,55 @@ footer {
 
 @media (max-width: 440px) {
     header {
-       display: block;
-       
+        padding-top: 10px;
     }
+
+    header h1 {
+        margin: 10px;
+    }
+
+    header nav {
+        margin: 0 0 5px 10px;
+        
+        font-size: 12px;
+    }
+
+    header nav a {
+        margin: 3px;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+    }
+
+    .about h3,
+    .food h3{
+        font-size: 30px;
+    }
+
+    .about p {
+        font-size: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .food .food-info{
+        width: 50px;
+        padding: 10px;
+    }
+    
+    header,
+    .food,
+    .gallery img,
+    .find-us,
+    .logos .logo-img
+     {
+       display: block;   
+    }
+
+    .food .food-info,
+    .food img {
+        width: 100%;
+    }
+
 }
